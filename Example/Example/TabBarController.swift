@@ -9,7 +9,7 @@
 import UIKit
 import ExtraTabBarController
 
-class TabBarController: TabBarViewController {
+class TabBarController: ExtraTabBarViewController {
 
     @IBOutlet var contents: UIView!
     

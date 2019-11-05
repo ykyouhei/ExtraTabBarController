@@ -1,5 +1,5 @@
 //
-//  TabBarViewController.swift
+//  ExtraTabBarViewController.swift
 //  ExtraTabBarController
 //
 //  Created by kyohei yamaguchi on 2019/11/04.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class TabBarViewController: UIViewController {
+open class ExtraTabBarViewController: UIViewController {
     
     private struct ExtraViewContainerConstraints {
         struct Compact {
@@ -234,7 +234,7 @@ open class TabBarViewController: UIViewController {
 
 }
 
-extension TabBarViewController: UITabBarDelegate {
+extension ExtraTabBarViewController: UITabBarDelegate {
     
     public func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         let index = viewControllers!.firstIndex { $0.tabBarItem == item }!

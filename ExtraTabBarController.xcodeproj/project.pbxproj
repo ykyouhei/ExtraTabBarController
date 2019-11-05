@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		884641ED2370DBA50045336E /* ExtraTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 884641EB2370DBA50045336E /* ExtraTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		884641F42370DC070045336E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884641F32370DC070045336E /* TabBarViewController.swift */; };
+		884641F42370DC070045336E /* ExtraTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884641F32370DC070045336E /* ExtraTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		884641E82370DBA50045336E /* ExtraTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtraTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884641EB2370DBA50045336E /* ExtraTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraTabBarController.h; sourceTree = "<group>"; };
 		884641EC2370DBA50045336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884641F32370DC070045336E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		884641F32370DC070045336E /* ExtraTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		884641EA2370DBA50045336E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				884641F32370DC070045336E /* TabBarViewController.swift */,
+				884641F32370DC070045336E /* ExtraTabBarViewController.swift */,
 				884641EB2370DBA50045336E /* ExtraTabBarController.h */,
 				884641EC2370DBA50045336E /* Info.plist */,
 			);
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884641F42370DC070045336E /* TabBarViewController.swift in Sources */,
+				884641F42370DC070045336E /* ExtraTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
