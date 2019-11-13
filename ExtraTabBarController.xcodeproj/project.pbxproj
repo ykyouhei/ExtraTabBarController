@@ -16,6 +16,9 @@
 		884641EB2370DBA50045336E /* ExtraTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraTabBarController.h; sourceTree = "<group>"; };
 		884641EC2370DBA50045336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884641F32370DC070045336E /* ExtraTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraTabBarViewController.swift; sourceTree = "<group>"; };
+		884AE4DF237BB711009842E2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		884AE4E0237BB711009842E2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		884AE4E1237BB711009842E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,9 @@
 		884641DE2370DBA50045336E = {
 			isa = PBXGroup;
 			children = (
+				884AE4DF237BB711009842E2 /* LICENSE */,
+				884AE4E0237BB711009842E2 /* Package.swift */,
+				884AE4E1237BB711009842E2 /* README.md */,
 				884641EA2370DBA50045336E /* Sources */,
 				884641E92370DBA50045336E /* Products */,
 			);
@@ -48,11 +54,19 @@
 		884641EA2370DBA50045336E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				884641F32370DC070045336E /* ExtraTabBarViewController.swift */,
+				884AE4E2237BB71E009842E2 /* ExtraTabBarController */,
 				884641EB2370DBA50045336E /* ExtraTabBarController.h */,
 				884641EC2370DBA50045336E /* Info.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		884AE4E2237BB71E009842E2 /* ExtraTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				884641F32370DC070045336E /* ExtraTabBarViewController.swift */,
+			);
+			path = ExtraTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
